@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for f in $(find . -name "*.default"); do
+  filename=$(basename $f)
+  cp -i $f ${f%.*}
+done
