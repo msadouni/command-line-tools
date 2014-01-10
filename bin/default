@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -z "$1" ]; then
+  echo "Usage: default <filename> [<filename2> <filename3> ...]"
+  exit
+fi
+
+for f in $*; do
+  cp -i $f $f.default
+done
