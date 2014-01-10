@@ -3,6 +3,20 @@ command-line-tools
 
 Various command line tools.
 
+## Installation
+
+Clone or download a tarball, then:
+
+    $ make install
+
+If you get a permission error, try with `sudo`:
+
+    $ sudo make install
+
+## Uninstallation
+
+    $ make uninstall
+
 ## Commands
 
 - `default`
