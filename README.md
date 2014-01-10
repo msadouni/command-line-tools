@@ -11,6 +11,7 @@ Various command line tools.
 ## default
 
 Create `.default` version for a given file or a list of files.
+It will ask for confirmation if a target file exists.
 
 This is mainly used to version config files templates.
 
